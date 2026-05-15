@@ -1,0 +1,53 @@
+```
+# Rust/Cargo specific
+target/
+Cargo.lock
+**/*.rs.bk
+
+# Dependencies
+vendor/
+
+# Documentation
+doc/
+docs/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*~
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+*.env*
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Build artifacts from other tools
+dist/
+build/
+*.exe
+*.dll
+*.so
+*.a
+*.o
+*.out
+*.class
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+.gradle/
+```

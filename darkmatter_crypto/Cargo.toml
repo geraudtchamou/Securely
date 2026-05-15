@@ -1,0 +1,11 @@
+[package]
+name = "darkmatter_crypto"
+version = "1.0.0"
+edition = "2021"
+description = "A cryptographic system mimicking dark matter using Schumann resonance, quantum mechanics, and cosmological physics."
+
+[dependencies]
+rand = "0.8"
+num-complex = "0.4"
+approx = "0.5"
+md5 = "0.7"
